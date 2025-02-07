@@ -20,10 +20,10 @@
 
 //The solution:
 
-for (var counter = 2; counter <= 100; counter++) {
+for (let counter = 2; counter <= 100; counter++) {
   var isPrime = true;
 
-  for (var i = 2; i <= counter; i++) {
+  for (let i = 2; i <= counter; i++) {
     if (counter % i === 0 && i !== counter) {
       isPrime = false;
     }
